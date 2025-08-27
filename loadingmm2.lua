@@ -263,9 +263,10 @@ if exec == "Delta" then
     -- Reminder every 20 seconds (still optional)
     task.spawn(function()
         while true do
-            task.wait(120)
+            task.wait(20)
             notify("Reminder: Turn OFF 'Verify Teleports' in Delta and rejoin to avoid getting kicked !")
         end
     end)
 end
+
 
