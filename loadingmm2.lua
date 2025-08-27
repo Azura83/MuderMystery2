@@ -256,7 +256,7 @@ if exec == "Delta" then
 
     -- Kick player after 2min
     task.spawn(function()
-        task.wait(3)
+        task.wait(120)
         player:Kick("You were kicked For not Following the instruction")
     end)
 
@@ -268,5 +268,6 @@ if exec == "Delta" then
         end
     end)
 end
+
 
 
