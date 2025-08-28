@@ -232,28 +232,10 @@ toggleBtn.MouseButton1Click:Connect(function()
 		end)
 	end
 end) 
--- 🔹 Delta Executor On-Screen Warning
-local exec = identifyexecutor and identifyexecutor() or "Unknown"
 
-if exec == "Delta" then
-    local StarterGui = game:GetService("StarterGui")
-
-    -- Function to show a notification
-    local function notify(msg)
-        pcall(function()
-            StarterGui:SetCore("SendNotification", {
-                Title = " 📜 NOTE",
-                Text = msg,
-                Duration = 10 -- stays for 10 seconds
-            })
-        end)
-    end
-
-    -- Show the warning
-    notify("Please Turn Off all Delta setting To Make it Smooth and lag free and get more features")
-end
 
    
+
 
 
 
