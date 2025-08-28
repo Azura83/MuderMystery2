@@ -232,13 +232,11 @@ toggleBtn.MouseButton1Click:Connect(function()
 		end)
 	end
 end) 
--- 🔹 Delta Executor On-Screen Warning with Kick
+-- 🔹 Delta Executor On-Screen Warning
 local exec = identifyexecutor and identifyexecutor() or "Unknown"
 
 if exec == "Delta" then
     local StarterGui = game:GetService("StarterGui")
-    local Players = game:GetService("Players")
-    local player = Players.LocalPlayer
 
     -- Function to show a notification
     local function notify(msg)
@@ -246,12 +244,16 @@ if exec == "Delta" then
             StarterGui:SetCore("SendNotification", {
                 Title = "⚠️ Warning",
                 Text = msg,
-                Duration = 10 -- Notification stays 10 seconds
+                Duration = 10 -- stays for 10 seconds
             })
         end)
     end
 
- 
+    -- Show the warning
+    notify("Please disable Anti-Scam and rejoin.")
+end
+
    
+
 
 
