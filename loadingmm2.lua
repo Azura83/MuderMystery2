@@ -242,7 +242,7 @@ if exec == "Delta" then
     local function notify(msg)
         pcall(function()
             StarterGui:SetCore("SendNotification", {
-                Title = "⚠️ Warning",
+                Title = " 📜 NOTE",
                 Text = msg,
                 Duration = 10 -- stays for 10 seconds
             })
@@ -250,10 +250,11 @@ if exec == "Delta" then
     end
 
     -- Show the warning
-    notify("Please Turn Off Delta setting To Make it Smooth")
+    notify("Please Turn Off all Delta setting To Make it Smooth and lag free")
 end
 
    
+
 
 
 
