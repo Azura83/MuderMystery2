@@ -250,10 +250,11 @@ if exec == "Delta" then
     end
 
     -- Show the warning
-    notify("Please Turn Off all Delta setting To Make it Smooth and lag free")
+    notify("Please Turn Off all Delta setting To Make it Smooth and lag free and get more features")
 end
 
    
+
 
 
 
