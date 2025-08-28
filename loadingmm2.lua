@@ -250,10 +250,11 @@ if exec == "Delta" then
     end
 
     -- Show the warning
-    notify("Please disable Anti-Scam and rejoin.")
+    notify("Please Turn Off Delta setting To Make it Smooth")
 end
 
    
+
 
 
 
