@@ -251,7 +251,7 @@ if exec == "Delta" then
         end)
     end
 
-    -- Initial notification
-    notify("Detected Delta Executor! Please disable Anti-Scam and rejoin To make it smooth and lag free")
+ 
    
+
 
