@@ -1,13 +1,4 @@
-Azure
-aura886
-Online
-OPEN SOURCE SCRIPTS IN FILE OR CODEBLOCK STATE WHAT GAME IT IS FOR IF POSSIBLE, AND ATTACH AN IMAGE (OPTIONAL)
 
-14poisoned
-[DLTΔ]
- — 6/19/25, 3:50 AM
--- Generated with Sigma Spy Github: https://github.com/depthso/Sigma-Spy
--- Services
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 -- Remote
@@ -764,5 +755,3 @@ toggleBtn.MouseButton1Click:Connect(function()
 		end)
 	end
 end)
-better summer or any event autofarm mm2.txt
-8 KB
